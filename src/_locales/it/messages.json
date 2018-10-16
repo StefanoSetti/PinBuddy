@@ -1,0 +1,198 @@
+{
+  "extensionName": {
+    "message": "PinBuddy"
+  },
+  "extensionDescription": {
+    "message": "Naviga nei tuoi segnalibri Pinboard e aggiungine di nuovi con facilità."
+  },
+
+
+  "optionsTitle": {
+    "message": "PinBuddy"
+  },
+  "optionsFooter": {
+    "message": "Copyright © 2018 <a href=\"https://pawelgrzybek.com/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Pawel Grzybek\">Pawel Grzybek</a>. Problemi e richieste di aggiunta features: <a href=\"https://twitter.com/pawelgrzybek\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Pawel Grzybek on Twitter\">Twitter</a>, <a href=\"https://github.com/pawelgrzybek/pinbuddy/issues\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Pawel Grzybek on GitHub\">GitHub</a>."
+  },
+  "optionsLoginManual": {
+    "message": "Un token di autenticazione è un identificatore corto opaco nella forma \"username:TOKEN\". Permette a PinBuddy di creare un'API senza mai richiedere la tua password. Puoi trovare il tuo token API <a href=\"https://pinboard.in/settings/password\" target=\"_blank\" rel=\"noopener noreferrer\"> nella pagina delle impostazioni sotto la tab password</a>."
+  },
+  "optionsLoginError": {
+    "message": "Errore. Per favore verifica che stai utilizzando un token corretto e che la tua connessione internet sia stabile."
+  },
+  "optionsLoginFormLabel": {
+    "message": "API Token"
+  },
+  "optionsLoginFormPlaceholder": {
+    "message": "username:TOKEN"
+  },
+  "optionsLoginFormSubmit": {
+    "message": "Invia"
+  },
+  "optionsOfflineMessageOne": {
+    "message": "Visita il <a href=\"http://pinboard.in/tour/\" target=\"_blank\" rel=\"noopener noreferrer\">Pinboard tour</a> ufficiale."
+  },
+  "optionsOfflineMessageQuote": {
+    "message": "Pinboard è un archivio personale di cose che trovi online che non vuoi dimenticare."
+  },
+  "optionsOfflineMessageTwo": {
+    "message": "Esattamente — \"online\". Per favore, sii sicuro di avere una connessione internet stabile."
+
+  },
+  "optionsWelcomeMessage": {
+    "message": "Salve. Sei connesso come $name$.",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Pawel"
+      }
+    }
+  },
+  "optionsLogOut": {
+    "message": "Log out"
+  },
+  "optionsDefaultView": {
+    "message": "Default view"
+  },
+  "optionsDefaultViewAllText": {
+    "message": "Tutto"
+  },
+  "optionsDefaultViewAddText": {
+    "message": "aggiungi url"
+  },
+  "optionsPrivateCheckboxByDefault": {
+    "message": Checkbox "\"privato\" di default (aggiungi vista url)"
+  },
+  "optionsToReadChecboxByDefault": {
+    "message": Checkbox "\"da leggere\" di default (aggiungi vista url)"
+  },
+  "optionsEnableSystemNotifications": {
+    "message": "Abilita nitifiche di sistema"
+  },
+  "optionsShortcutDescriptionToggle": {
+    "message": "mostra / nascondi PinBuddy"
+  },
+  "optionsShortcutDescriptionGoToAll": {
+    "message": "vai alla vista globale"
+  },
+  "optionsShortcutDescriptionGoToAdd": {
+    "message": "vai alla vista di aggiunzione"
+  },
+  "optionsShortcutDescriptionAddBookmark": {
+    "message": "aggiungi segnalibro (aggiungi vista)"
+  },
+  "optionsShortcutDescriptionOpenInBackground": {
+    "message": "apri il segnalibro in background (vista globale)"
+  },
+  "optionsShortcutDescriptionDeleteBookmark": {
+    "message": "elimina segnalibro (vista globale)"
+  },
+
+
+  "popupOpenYourPinboardProfile": {
+    "message": "Apri il tuo Profilo Pinboard"
+  },
+  "popupBrowseAllTitle": {
+    "message": "Visita tutti"
+  },
+  "popupBrowseAllText": {
+    "message": "tutti"
+  },
+  "popupAddURLTitle": {
+    "message": "Aggiungi URL"
+  },
+  "popupAddURLText": {
+    "message": "aggiungi url"
+  },
+  "popupErrorMessage": {
+    "message": "Avvenuto errore. Sii sicuro che il tuo token sia valido, controlla la tua connessione internet e che lo<a href=\"https://twitter.com/Pinboard\" target=\"_blank\" rel=\"noopener noreferrer\">stato delle API Pinboard</a> siano stabili."
+  },
+  "popupErrorButtonMessage": {
+    "message": "Vai alla pagina opzioni"
+  },
+  "popupFiltersSearchLabel": {
+    "message": "Cerca"
+  },
+  "popupFiltersSearchPlaceholder": {
+    "message": "Cerca termine"
+  },
+  "popupFiltersFilterButton": {
+    "message": "Filtri"
+  },
+  "popupFiltersCheckboxPrivate": {
+    "message": "Privato"
+  },
+  "popupFiltersCheckboxPublic": {
+    "message": "Pubblici"
+  },
+  "popupFiltersCheckboxUnread": {
+    "message": "Non letto"
+  },
+  "popupFiltersCheckboxUntagged": {
+    "message": "Non taggato"
+  },
+  "popupArticleButtonCancel": {
+    "message": "cancella"
+  },
+  "popupArticleButtonDelete": {
+    "message": "elimina"
+  },
+  "popupAddTitleLabel": {
+    "message": "Titolo"
+  },
+  "popupAddTitleInvalidMessage": {
+    "message": "Massimo 255 caratteri"
+  },
+  "popupAddDescriptionLabel": {
+    "message": "Descrizione"
+  },
+  "popupAddDescriptionInvalidMessage": {
+    "message": "Massimo 65536 caratteri"
+  },
+  "popupAddTagsLabel": {
+    "message": "Tags (separati da spazi)"
+  },
+  "popupAddTagsInvalidMessage": {
+    "message": "Massimo 255 caratteri"
+  },
+  "popupAddPrivateCheckboxLabel": {
+    "message": "privato"
+  },
+  "popupAddReadLaterCheckboxLabel": {
+    "message": "leggi dopo"
+  },
+  "popupAddBookmarkButton": {
+    "message": "aggiungi segnalibro"
+  },
+  "popupReAddBookmarkButton": {
+    "message": "sovrascrivi segnalibro"
+  },
+  "popupLoggedOutViewMessage": {
+    "message": "Un token di autenticazione è un identificatore corto opaco nella forma \"username:TOKEN\". Permette a PinBuddy di creare un'API senza mai richiedere la tua password. Puoi trovare il tuo token API <a href=\"https://pinboard.in/settings/password\" target=\"_blank\" rel=\"noopener noreferrer\"> nella pagina delle impostazioni sotto la tab password</a>."
+  },
+  "popupLoggedOutViewButtonMessage": {
+    "message": "Vai alla pagina di opzioni per poter effettuare il login"
+  },
+  "popupOfflineMessageOne": {
+    "message": "Visita il <a href=\"http://pinboard.in/tour/\" target=\"_blank\" rel=\"noopener noreferrer\">Pinboard tour</a> ufficiale."
+  },
+  "popupOfflineMessageQuote": {
+    "message": "Pinboard è un archivio personale di cose che trovi online che non vuoi dimenticare."
+  },
+  "popupOfflineMessageTwo": {
+    "message": "Esattamente — \"online\". Per favore, sii sicuro di avere una connessione internet stabile."
+  },
+  "popupInvalidProtocolParagraph": {
+    "message": "I protocolli ammessi sono <code>http</code>, <code>https</code>, <code>javascript</code>, <code>mailto</code>, <code>ftp</code> and <code>file</code>. Sfortunatamente non puoi salvare questa URL."
+  },
+  "popupInvalidProtocolButton": {
+    "message": "Scorpi di più sulla documentazione delle API Pinboard"
+  },
+
+
+  "notificationSaveSucessful": {
+    "message": "URL salvata con successo"
+  },
+  "notificationDeleteSucessful": {
+    "message": "URL eliminata con successo"
+  }
+}
